@@ -9,7 +9,7 @@ from multiprocessing import Process, Queue
 
 # Kafka配置
 kafka_config = {
-    'bootstrap.servers': '10.21.37.204:9092',
+    'bootstrap.servers': '127.0.0.1:9092',
     'group.id': 'acct_to_redis_group',
     'default.topic.config': {'acks': 'all'}
 }
